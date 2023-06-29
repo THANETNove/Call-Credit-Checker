@@ -28,7 +28,7 @@ export default class App extends React.Component {
         PermissionsAndroid.PERMISSIONS.READ_CALL_LOG,
         PermissionsAndroid.PERMISSIONS.READ_PHONE_STATE,
       ]);
-      console.log('Permissions are:  55', permissions);
+      console.log('Permissions are:  aa55', permissions);
     } catch (err) {
       console.warn(err);
     }
